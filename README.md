@@ -7,3 +7,6 @@ It is a sketch version of 10 minutes work with chatGPT, if you are familiar with
 Feature to add:
 - Project Royalties enforcement for conversion, adjustable by the contract initiator which would be the team
 - Wrapped NFT contract Name when created
+
+Mirror version:
+https://mirror.xyz/wefet.eth/qG0crBoQ45sW4zuozBEYV0cUizZMFsgGVUUfWeUV6F0
