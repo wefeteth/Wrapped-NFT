@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol";
 
 contract WrappedNFTFactory {
     event NewContract(address indexed newContractAddress);
@@ -32,7 +32,7 @@ contract WrappedNFTFactory {
         view
         returns (string memory)
     {
-        IERC721 erc721Token = IERC721(_erc721Address);
+        IERC721Metadata erc721Token = IERC721Metadata(_erc721Address);
         return erc721Token.name();
     }
 }
