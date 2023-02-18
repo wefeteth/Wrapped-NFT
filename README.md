@@ -4,9 +4,7 @@ Wrapped the NFT for liquidity.
 
 The concept :
 
-Initialise Wrapped NFT contract →
-
-Swap : NFT <-> ERC20
+Initialise Wrapped NFT contract → { Swap : NFT <-> ERC20 }
 
 It is a sketch version of 10 minutes work with chatGPT, if you are familiar with smart contract , with some adjustment and the contract is ready to use for production. Use at your own risk.
 
