@@ -1,6 +1,6 @@
 # Wrapped-NFT
 
-Wrapped the NFT for liquidity.
+Wrapped NFT for liquidity.
 
 Initialise Wrapped NFT contract → { Swap : NFT <-> ERC20 }
 
